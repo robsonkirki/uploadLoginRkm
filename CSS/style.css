@@ -20,7 +20,7 @@ body {
 
 /* First content */
 .content {
-    background-color: #fff;
+    background-color: #301c0b;
     border-radius: 15px;
     width: 960px;
     height: 65%;
@@ -32,7 +32,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #b42222;
+    background-color: #f76f00;
     width: 40%;
     height: 100%;
     border-top-left-radius: 15px;
@@ -47,11 +47,11 @@ body {
 }
 
 .title-primary {
-    color: #fff;
+    color: #301c0b;
 }
 
 .title-second {
-    color: #b42222;
+    color: #f76f00;
 }
 
 .description {
@@ -61,17 +61,17 @@ body {
 }
 
 .description-primary {
-    color: #fff;
+    color: #301c0b;
 }
 
 .description-second {
-    color: #7f8c8d;
+    color: #f76f00;
 }
 
 .btn {
     border-radius: 15px;
     text-transform: uppercase;
-    color: #fff;
+    color: #301c0b;
     font-size: 10px;
     padding: 10px 50px;
     cursor: pointer;
@@ -84,25 +84,25 @@ body {
 
 .btn-primary {
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #301c0b;
     transition: background-color .5s;
 }
 
 .btn-primary:hover {
-    background-color: #fff;
-    color: #b42222;
+    background-color: #301c0b;
+    color: #f76f00;
 }
 
 .btn-second {
-    background-color: #b42222;
-    border: 1px solid #b42222;
+    background-color: #f76f00;
+    border: 1px solid #f76f00;
     transition: background-color .5s;
 }
 
 .btn-second:hover {
-    background-color: #fff;
-    border: 1px solid #b42222;
-    color: #b42222;
+    background-color: #301c0b;
+    border: 1px solid #f76f00;
+    color: #f76f00
 }
 
 .first-content {
@@ -139,9 +139,9 @@ body {
 }
 
 .link-social-media:hover .item-social-media {
-    background-color: #b42222;
-    color: #fff;
-    border-color: #b42222;
+    background-color: #f76f00;
+    color: #301c0b;
+    border-color: #f76f00;
 }
 
 .list-social-media {
@@ -150,13 +150,13 @@ body {
 }
 
 .item-social-media {
-    border: 1px solid #bdc3c7;
+    border: 1px solid #f76f00;
     border-radius: 50%;
     width: 35px;
     height: 35px;
     line-height: 35px;
     text-align: center;
-    color: #95a5a6;
+    color: #f76f00;
 }
 
 .form {
@@ -169,7 +169,7 @@ body {
     height: 45px;
     width: 100%;
     border: none;
-    background-color: #ecf0f1;
+    background-color: #d2d4d6;
 }
 
 textarea:focus, input:focus, select:focus {
@@ -179,14 +179,14 @@ textarea:focus, input:focus, select:focus {
 } 
 
 .label-input {
-    background-color: #ecf0f1;
+    background-color: #d2d4d6;;
     display: flex;
     align-items: center;
     margin: 8px;
 }
 
 .icon-modify {
-    color: #7f8c8d;
+    color: #525252;
     padding: 0 5px;
 }
 
@@ -207,7 +207,7 @@ textarea:focus, input:focus, select:focus {
 }
 
 .password {
-    color: #34495e;
+    color: #f76f00;
     font-size: 14px;
     margin: 15px 0;
     text-align: center;
